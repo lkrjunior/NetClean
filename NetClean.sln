@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1700.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetClean.API", "NetClean.API\NetClean.API.csproj", "{88A2C217-4D5C-480B-B2AB-2ADE5E8B6473}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88A2C217-4D5C-480B-B2AB-2ADE5E8B6473}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88A2C217-4D5C-480B-B2AB-2ADE5E8B6473}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88A2C217-4D5C-480B-B2AB-2ADE5E8B6473}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88A2C217-4D5C-480B-B2AB-2ADE5E8B6473}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42A44092-C313-4018-B29B-EC87E7BFF861}
+	EndGlobalSection
+EndGlobal
