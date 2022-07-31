@@ -1,4 +1,5 @@
 ﻿using System;
+using NetClean.Domain.Models.Common;
 
 namespace NetClean.Domain.Models.Result
 {

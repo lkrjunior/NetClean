@@ -1,5 +1,6 @@
 ﻿using System;
-namespace NetClean.Domain.Models
+
+namespace NetClean.Domain.Models.Common
 {
     public enum CoreStatus
     {
