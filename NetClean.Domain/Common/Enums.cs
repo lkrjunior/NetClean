@@ -4,10 +4,10 @@ namespace NetClean.Domain.Models.Common
 {
     public enum CoreStatus
     {
-        Ok = 1,
-        NotFound = 2,
-        BadRequest = 3,
-        Error = 4,
+        Ok = 200,
+        BadRequest = 400,
+        NotFound = 404,
+        Error = 500,
     }
 }
 
