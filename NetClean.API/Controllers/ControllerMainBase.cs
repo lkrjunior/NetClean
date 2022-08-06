@@ -14,7 +14,10 @@ namespace NetClean.API.Controllers
                 return Problem(coreResult.ErrorMessage, HttpContext.Request.Path, statusCode, coreResult.ErrorTitle);
             }
 
-            return Ok(coreResult.Data);
+            return new ObjectResult(coreResult.Data)
+            {
+                StatusCode = (int) coreResult.CoreStatus
+            };
         }
     }
 }
