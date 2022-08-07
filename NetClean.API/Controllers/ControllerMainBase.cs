@@ -9,16 +9,15 @@ namespace NetClean.API.Controllers
         {
             if (coreResult.HasError)
             {
-                var statusCode = (int)coreResult.CoreStatus;
+                var statusCode = (int)coreResult.StatusCode;
 
                 return Problem(coreResult.ErrorMessage, HttpContext.Request.Path, statusCode, coreResult.ErrorTitle);
             }
 
             return new ObjectResult(coreResult.Data)
             {
-                StatusCode = (int) coreResult.CoreStatus
+                StatusCode = (int) coreResult.StatusCode
             };
         }
     }
 }
-
